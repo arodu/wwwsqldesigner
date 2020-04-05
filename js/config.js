@@ -4,9 +4,9 @@ var CONFIG = {
 
 	AVAILABLE_LOCALES: ["ar", "cs", "de", "el", "en", "eo", "es", "fr", "hu", "it", "ja", "ko", "nl", "pl", "pt_BR", "ro", "ru", "sv", "tr", "zh"],
 	DEFAULT_LOCALE: "en",
-	
+
 	AVAILABLE_BACKENDS: ["php-mysql", "php-s3", "php-blank", "php-file", "php-sqlite", "php-mysql+file", "php-postgresql", "php-pdo", "perl-file", "php-cubrid", "asp-file", "web2py"],
-	DEFAULT_BACKEND: ["php-mysql"],
+	DEFAULT_BACKEND: ["php-file"],
 
 	RELATION_THICKNESS: 2,
 	RELATION_SPACING: 15,
@@ -14,10 +14,10 @@ var CONFIG = {
 
 	RELATION_HIGHLIGHTED_COLOR: "#FF0000",
 	RELATION_HIGHLIGHTED_THICKNESS: 5,
-	
+
 	STYLES: ["material-inspired", "original"],
 	MATERIAL_RELATION_COLORS: ["#323232", "#F44336", "#E91E63", "#9C27B0", "#3F51B5", "#673AB7", "#2196F3", "#03A9F4", "#00BCD4", "#009688", "#4CAF50", "#8BC34A", "#CDDC39", "#FFC107", "#FF5722", "#795548", "#607D8B"],
-	
+
 	STATIC_PATH: "",
 	XHR_PATH: "",
 
